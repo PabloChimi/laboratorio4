@@ -1,0 +1,18 @@
+
+<p>
+  usuario works!
+</p>
+<p>Nombre</p>
+<input type="text" [(ngModel)]="usuario.nombre">
+<p>Clave</p>
+<input type="text" [(ngModel)]="usuario.clave">
+<button (click)="Pushear()">subir usuario</button>
+
+<div *ngFor="let user of listado">
+  <p>{{user.nombre}}</p>
+</div>
+<!-- @input()lista ver como funciona esto-->
+<!-- app-listado [lista]="usuarios" o sea como llame la lista en usuarios -->
+
+<!-- Una grilla, pero cambiando el html, que sea tr td, etc -->
+<app-listado-de-usuarios ></app-listado-de-usuarios>
