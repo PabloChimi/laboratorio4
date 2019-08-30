@@ -1,0 +1,1 @@
+Practicar roteo, child e ir viendo output
